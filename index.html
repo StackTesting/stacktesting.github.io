@@ -20,6 +20,7 @@ function showOrHide(a) {
 		if (a=="Cvid") {
 			Element.play();
 		}
+<<<<<<< HEAD
 		if (a=="languagestext"){
 			document.getElementById('educationtext').style.display="none";
 			document.getElementById('othertext').style.display="none";
@@ -39,25 +40,48 @@ function showOrHide(a) {
 		}
 	}
 }
+=======
+	}
+}
+function collapse() {
+	document.getElementById('languagestext').style.display="none";
+	document.getElementById('educationtext').style.display="none";
+	document.getElementById('othertext').style.display="none";
+	document.getElementById('aboutmetext').style.display="none";
+}
+>>>>>>> 4725c06381e62b98b9d20fc762f113b677375eba
 </script>
 </head>
 
 <body>
 <div id="wrapper">
 <header id="top">
+<<<<<<< HEAD
   <h1>Patrick Duncan</h1>
+=======
+  <h1 onClick="return collapse()">Patrick Duncan</h1>
+>>>>>>> 4725c06381e62b98b9d20fc762f113b677375eba
 </header>
 
 <header id="languages">
   <h2 onClick="return showOrHide('languagestext')">Programming Experience </h2>
   <div id="languagestext">
     <h3>Java</h3>
+<<<<<<< HEAD
     <p>My favourite language and the one I'm most adept in.   I created a 2D fighting game that utilizes various fundamental programming techniques; the download link are below.<br>
       <a href="media/Roman Fury.jar">Roman Fury</a></p>
     <h3>Flash</h3>
     <p>I have basic knowledge of ActionScript and created a small game where you click on moving enemies to harm them, figuring out how to defeat the boss is up to you! I created it when I first started programming.<br>
     <div id="icaloth">
       <a onClick="return showOrHide('icaloth')">The Older Scrolls I: Icaloth</a></p>
+=======
+    <p>My favourite language and the one I'm most adept in.   I created a 2-D brawler game that utilizes various fundemental programming techniques; the download and source code link are below.<br>
+      <a href="media/Roman Fury.jar">Roman Fury</a></p>
+    <h3>Flash</h3>
+    <p>I have basic knowledge of actionscript and created a small game where you click on moving enemies to harm them. I created it when I first started programming.<br>
+      <a onClick="return showOrHide('icaloth')">The Older Scrolls I: Icaloth</a></p>
+    <div id="icaloth">
+>>>>>>> 4725c06381e62b98b9d20fc762f113b677375eba
       <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1152" height="700" id="FlashID" title="icaloth">
         <param name="movie" value="media/Duncan.swf" />
         <param name="quality" value="high" />
@@ -84,7 +108,11 @@ function showOrHide(a) {
       </object>
     </div>
     <h3>C</h3>
+<<<<<<< HEAD
     <p>Programmed a small circuit board to become a locker security that performed its duty by:
+=======
+    <p>Programmed a small circuit board to become locker security that performed its duty by:
+>>>>>>> 4725c06381e62b98b9d20fc762f113b677375eba
     <div id="list">
       <li>Beeping once and turning on its LEDs when it sensed light for the first time.</li>
       <li>Turning off the LEDS when the light disappeared and remembering its LEDs have turned on already.</li>
@@ -106,6 +134,12 @@ function showOrHide(a) {
   <div id="educationtext">
     <h4>Class of 2018 - Bachelor of Applied Science in Computer Science</h4>
     <p>McMaster University, Hamilton, ON</p>
+<<<<<<< HEAD
+=======
+    <h4>2010-2014  High School Diploma</h4>
+    <p>Forest Heights Collegiate Institute, Kitchener, ON<br>
+      Top 6 Average of 89%</p>
+>>>>>>> 4725c06381e62b98b9d20fc762f113b677375eba
   </div>
 </header>
 
@@ -113,12 +147,17 @@ function showOrHide(a) {
   <h2 onClick="return showOrHide('othertext')">Other Experiences </h2>
   <div id="othertext">
     <h3>Operating Systems</h3>
+<<<<<<< HEAD
     <p>I'm most experienced with Windows XP-8.1, Windows Phone 8 and Android.  I also have experience with OS X, Ubuntu and	 iOS.</p>
+=======
+    <p>I'm most experienced with Windows XP-8.1, Windows Phone 8 and Android.  I also have experience with OS X, Ubuntu and iOS.</p>
+>>>>>>> 4725c06381e62b98b9d20fc762f113b677375eba
     <h3>Programs</h3>
     <p>Microsoft Excel, Powerpoint, and Word.  Google Drive services. Adobe Dreamweaver. Google Chrome, Firefox, and Internet Explorer.</p>
     <h3>Volunteer Work</h3>
     <p>Data Entry at the Canadian Diabetes Association and prepared a music night for a middle school.</p>
     <h3>Miscellaneous</h3>
+<<<<<<< HEAD
     <p>Soldering, 6 years flute and built a gaming desktop.</p>
   </div>
 </header>
@@ -127,6 +166,18 @@ function showOrHide(a) {
   <h2 onClick="return showOrHide('aboutmetext')">About Me</h2>
   <div id="aboutmetext">
     <p>I am a first year computer science student at McMaster University.   <br>
+=======
+    <p>Soldering, 5 years flute and built a gaming desktop.</p>
+  </div>
+</header>
+
+<header id="aboutme">
+  <h2 onClick="return showOrHide('aboutmetext')">About Me</h2>
+  <div id="aboutmetext">
+    <p>I love challenges, which is why I have gone into Computer Science. There is nothing like creating a perfect 
+    algorithm or trying to figure out why something is not working.<br>I am very hardworking
+    and can work individually or with a team.<br>
+>>>>>>> 4725c06381e62b98b9d20fc762f113b677375eba
 	<a href="http://ca.linkedin.com/pub/patrick-duncan/a0/976/a7b" Target="_blank">LinkedIn</a><br>
 	<a href="https://github.com/patrickduncan" Target="_blank">GitHub</a></p>
   </div>
