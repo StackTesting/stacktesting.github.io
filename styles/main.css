@@ -157,20 +157,13 @@ p {
 }
 list {
 	font-weight: 400;
-	text-align: left;
-	text-indent: 18px;
+	text-align: center;
 	font-family: source-sans-pro;
 	font-style: normal;
 	font-size: 50px;
 }
 #languagestext #list li {
-	text-align: left;
-	text-indent: 567px;
-}
-#othertext #list li {
-	text-align: left;
-	text-indent: 875px;
-	font-weight: 400;
+	text-align: center;
 }
 #languages #languagestext #Cvid {
 	text-align: center;
